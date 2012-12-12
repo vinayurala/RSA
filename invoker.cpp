@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 	        cin>>bitcount;
 	        if(bitcount < 129)
 	        {
-		  cout<<"\nKey too weak; re-start.......!!\n"<<endl;
+		  cout<<"\nKey too weak; re-start.......!!\n"<<endl;                                    // Weak keys stink
 		  break;
 		}
 	        cout<<"\nEnter the filename of the key file: ";
